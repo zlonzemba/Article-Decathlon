@@ -1,0 +1,6 @@
+{
+  "name": "DECATH'TECH Review",
+  "description": "Magazine en ligne indépendant dédié aux innovations technologiques, à la R&D et aux stratégies business de Decathlon. Projet académique Mastère Ingénieur d'Affaires.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
