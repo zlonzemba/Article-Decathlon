@@ -132,6 +132,9 @@ export const ArticleView: React.FC<ArticleViewProps> = ({
             src={article.image}
             alt={article.title}
             referrerPolicy="no-referrer"
+            onError={(e) => {
+              (e.target as HTMLImageElement).src = '/images/decathlon_sportslab_biomechanics.jpg';
+            }}
             className="w-full h-full object-cover"
           />
         </div>

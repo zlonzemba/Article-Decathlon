@@ -4,6 +4,11 @@
  * Decathlon United corporate reports, and specialized economic press.
  */
 
+import sportslabImg from '../assets/images/decathlon_sportslab_biomechanics_1792402483270.jpg';
+import rfidImg from '../assets/images/decathlon_smart_retail_rfid_1792402482760.jpg';
+import ecodesignImg from '../assets/images/decathlon_ecodesign_materials_1792402483939.jpg';
+import kiprunImg from '../assets/images/decathlon_kiprun_carbon_running_1792402483686.jpg';
+
 export interface ArticleSource {
   title: string;
   url: string;
@@ -58,7 +63,7 @@ export const ARTICLES: Article[] = [
     },
     date: '2026-03-24',
     readTime: 6,
-    image: '/src/assets/images/decathlon_sportslab_biomechanics_1792402483270.jpg',
+    image: sportslabImg,
     imageCaption: 'Laboratoire de biomécanique du SportsLab Decathlon : tapis instrumenté Kistler et caméras optoélectroniques Vicon.',
     tags: ['R&D', 'SportsLab', 'Biomécanique', 'Brevets', 'Ingénierie', 'Innovation'],
     featured: true,
@@ -145,7 +150,7 @@ export const ARTICLES: Article[] = [
     },
     date: '2026-03-18',
     readTime: 7,
-    image: '/src/assets/images/decathlon_smart_retail_rfid_1792402482760.jpg',
+    image: rfidImg,
     imageCaption: 'Magasin automatisé Decathlon : antenne RFID de lecture massive et robot autonome de scan d’inventaire.',
     tags: ['RFID', 'Supply Chain', 'IoT', 'Logistique', 'Retail 4.0', 'Automatisation'],
     summaryBullets: [
@@ -230,7 +235,7 @@ export const ARTICLES: Article[] = [
     },
     date: '2026-03-12',
     readTime: 6,
-    image: '/src/assets/images/decathlon_ecodesign_materials_1792402483939.jpg',
+    image: ecodesignImg,
     imageCaption: 'Échantillons de textiles biosourcés et granulats de polymères recyclés au centre de conception Quechua à Passy.',
     tags: ['Éco-conception', 'Carbios', 'Polymères', 'RSE', 'ACV', 'Recyclage', 'Durabilité'],
     summaryBullets: [
@@ -314,7 +319,7 @@ export const ARTICLES: Article[] = [
     },
     date: '2026-03-05',
     readTime: 6,
-    image: '/src/assets/images/decathlon_kiprun_carbon_running_1792402483686.jpg',
+    image: kiprunImg,
     imageCaption: 'Architecture de la Kiprun KD900X : semelle intermédiaire en VFOAM Pebax et plaque de carbone incurvée.',
     tags: ['Kiprun', 'Running', 'Carbone', 'Pebax', 'Arkema', 'High-Tech', 'Performance'],
     summaryBullets: [
@@ -399,7 +404,7 @@ export const ARTICLES: Article[] = [
     },
     date: '2026-02-27',
     readTime: 5,
-    image: '/src/assets/images/decathlon_smart_retail_rfid_1792402482760.jpg',
+    image: rfidImg,
     imageCaption: 'Modélisation 3D et algorithmes prédictifs appliqués au parcours d’achat dans l’application mobile Decathlon.',
     tags: ['IA', 'Computer Vision', 'Data Science', 'Machine Learning', 'E-commerce', 'Prédictif'],
     summaryBullets: [
@@ -483,7 +488,7 @@ export const ARTICLES: Article[] = [
     },
     date: '2026-02-14',
     readTime: 6,
-    image: '/src/assets/images/decathlon_ecodesign_materials_1792402483939.jpg',
+    image: ecodesignImg,
     imageCaption: 'Atelier de contrôle technique et reconditionnement certifié des vélos Seconde Vie en magasin.',
     tags: ['Seconde Vie', 'BuyBack', 'Économie Circulaire', 'Modèle Business', 'Location', 'Atelier'],
     summaryBullets: [
@@ -567,7 +572,7 @@ export const ARTICLES: Article[] = [
     },
     date: '2026-01-30',
     readTime: 6,
-    image: '/src/assets/images/decathlon_smart_retail_rfid_1792402482760.jpg',
+    image: rfidImg,
     imageCaption: 'Robot autonome en phase de patrouille nocturne dans les allées d’un magasin Decathlon nouvelle génération.',
     tags: ['Robotique', 'Exotec', 'Magasin du Futur', 'Click and Collect', 'Supply Chain', 'Automation'],
     summaryBullets: [
@@ -652,7 +657,7 @@ export const ARTICLES: Article[] = [
     },
     date: '2026-01-16',
     readTime: 6,
-    image: '/src/assets/images/decathlon_sportslab_biomechanics_1792402483270.jpg',
+    image: sportslabImg,
     imageCaption: 'Banc d’essai électronique et d’acquisition de données physiologiques pour les capteurs connectés de sport.',
     tags: ['IoT', 'Sport Connecté', 'Coros', 'Textile Intelligent', 'Wearables', 'Santé'],
     summaryBullets: [
@@ -736,7 +741,7 @@ export const ARTICLES: Article[] = [
     },
     date: '2026-01-08',
     readTime: 6,
-    image: '/src/assets/images/decathlon_kiprun_carbon_running_1792402483686.jpg',
+    image: kiprunImg,
     imageCaption: 'Decathlon Pulse : investissements d’ingénierie d’affaires dans les start-ups de deeptech et de biomatériaux.',
     tags: ['Decathlon Pulse', 'Open Innovation', 'Venture Capital', 'Startups', 'Deeptech', 'Stratégie'],
     summaryBullets: [

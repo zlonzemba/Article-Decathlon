@@ -32,6 +32,9 @@ export const HeroFeatured: React.FC<HeroFeaturedProps> = ({
               src={featuredArticle.image}
               alt={featuredArticle.title}
               referrerPolicy="no-referrer"
+              onError={(e) => {
+                (e.target as HTMLImageElement).src = '/images/decathlon_sportslab_biomechanics.jpg';
+              }}
               className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent" />

@@ -59,6 +59,9 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
           alt={article.title}
           loading="lazy"
           referrerPolicy="no-referrer"
+          onError={(e) => {
+            (e.target as HTMLImageElement).src = '/images/decathlon_sportslab_biomechanics.jpg';
+          }}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
